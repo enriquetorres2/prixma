@@ -14,12 +14,13 @@
 `include "not.v"
 
 module controller(stop_motor,front_motor,turn_left,turn_right,rotate,
+	dI_1,dI_2,dI_3,
 	cd,red,green,blue,purple,yellow,done,clk,reset);
 	input cd,red,green,blue,purple,yellow,done,clk,reset;
 	wire notBlue,notDone,sor1,sor2,sor3,sor4,sor5;
 	wire A,notA,B,notB,C,notC;
 	wire or1_1,or1_2,or1_3,or1_4,or2_1,or2_2,or2_3,or3_1,or3_2,or3_3;
-	wire dI_1,dI_2,dI_3;
+	output dI_1,dI_2,dI_3;
 	output stop_motor,front_motor,turn_left,turn_right,rotate;
 
 	NOT not1(notBlue,blue);

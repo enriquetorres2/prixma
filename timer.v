@@ -3,13 +3,13 @@
 // -- File Name   : timer.v
 // -- Function    : 6 bit timer
 // -- Coder       : Enrique J. Torres Rivera
-// -----------------------------------------------------------------
-`include "dff.v"
-`include "nand_2.v"
-`include "comparator_8.v"
-`include "not.v"
+// // -----------------------------------------------------------------
+// `include "dff.v"
+// `include "nand_2.v"
+//`include "comparator_8.v"
+// `include "not.v"
 
-module timer(Q,C,clk,reset);
+module timer(Qout,C,clk,reset);
 	input clk, reset;
 	input [5:0] C;
 	wire notClk,l0,l1,l2,l3,l4,l5,Q;

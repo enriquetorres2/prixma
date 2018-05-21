@@ -4,8 +4,8 @@
 // -- Function    : 5 steps Pulse Width Modulation With D Flip-Flops
 // -- Coder       : Enrique J. Torres Rivera
 // -----------------------------------------------------------------
-`include "dff.v"
-`include "not.v"
+// `include "dff.v"
+// `include "not.v"
 `include "nand_2.v"
 `include "mux4x1_1.v"
 `include "nor_2.v"

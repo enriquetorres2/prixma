@@ -4,9 +4,9 @@
 // -- Function    : Color Comparator Module
 // -- Coder       : Enrique J. Torres Rivera
 // -----------------------------------------------------------------
-`include "and_3.v"
-`include "and_2.v"
-`include "not.v"
+//`include "and_3.v"
+//`include "and_2.v"
+//`include "not.v"
 `include "comparator_8.v"
 
 module color_comp(red,green,blue,purple,yellow,

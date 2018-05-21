@@ -4,10 +4,10 @@
 // -- Function    : Motor Controller
 // -- Coder       : Enrique J. Torres Rivera
 // -----------------------------------------------------------------
-`include "not.v"
-`include "or_2.v"
-`include "or_3.v"
-`include "and_2.v"
+// `include "not.v"
+// `include "or_2.v"
+// `include "or_3.v"
+// `include "and_2.v"
 
 module motor_contoller(S1,S2,stop_motor,front_motor,turn_left,turn_right,rotate);
 	input stop_motor,front_motor,turn_left,turn_right,rotate;
