@@ -36,7 +36,7 @@ module system(motorL,motorR,a,b,c,d,e,f,g,pn,
 		{B7,B6,B5,B4,B3,B2,B1,B0},
 		8'h96,8'h32,8'h32,8'h32,8'h96,8'h96);
 
-	sel3_6 sel3(t,turn_left,turn_right,rotate,1,6'b100000,6'b100000,6'b100000);
+	sel3_6 sel3(t,turn_left,turn_right,rotate,1,6'b000100,6'b000100,6'b000100);
 
 	timer T1(done,t,clk,front_motor);
 
