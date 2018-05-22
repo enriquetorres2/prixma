@@ -44,6 +44,8 @@ module system(motorL,motorR,a,b,c,d,e,f,g,pn,
 		O1,O2,O3,
 		P,red,green,blue,purple,yellow,done,clk,rst);
 
+	decoder_3bit_7segment d7s({a,b,c,d,e,f,g,pn},1,{O1,O2,O3});
+
 	motor_contoller mt(S1,S2,stop_motor,front_motor,turn_left,turn_right,rotate);
 
 	PWM m1(motorL,clk,S1,1,1,rst);
