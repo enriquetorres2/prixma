@@ -8,5 +8,5 @@ module NOR_2(S,A,B);
 	input A,B;
 	output reg S;
 	always @*
-		S = A~|B;
+		S = ~(A|B);
 endmodule
