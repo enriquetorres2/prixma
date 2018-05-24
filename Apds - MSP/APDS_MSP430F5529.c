@@ -1,26 +1,7 @@
 #include "APDS_MSP430F5529.h"
 #include "Serial_JMPv2.2.h"
 
-
-
-
-
-
-
-
-//I2C address of the APDS 9960 module
-#define APDS9960_I2C_ADDR       0x39
-
-//Places in memory for certain values
-#define APDS9960_CDATAL         0x94     //Ambient Light Low
-#define APDS9960_CDATAH 		0x95     //Ambient Light High
-#define APDS9960_RDATAL         0x96	 //Red Light Low
-#define APDS9960_RDATAH         0x97	 //Red Light High
-#define APDS9960_GDATAL         0x98     //Green Light Low
-#define APDS9960_GDATAH         0x99     //Green Light High
-#define APDS9960_BDATAL         0x9A	 //Blue Light Low
-#define APDS9960_BDATAH         0x9B	 //Blue Light High
-#define APDS9960_PDATA          0x9C     //Prooximity Data
+//Hacky things to make it work
 
 #define uint8_t unsigned char
 #define int8_t char
